@@ -6,6 +6,13 @@
 .navbar-brand {
     height: 80px;
 }
+.logo{
+padding: 0px;
+    margin:0px;
+    height: auto;
+    position: relative;
+    top : -55px;
+}
 
 .navbar-brand span {
 	font-size: 15px;
