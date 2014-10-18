@@ -6,6 +6,11 @@
 .navbar-brand {
     height: 80px;
 }
+
+.navbar-inverse{
+background-color:#000;
+}
+
 .logo{
 padding: 0px;
     margin:0px;
