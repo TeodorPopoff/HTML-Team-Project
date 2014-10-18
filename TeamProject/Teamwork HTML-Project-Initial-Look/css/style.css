@@ -21,14 +21,14 @@
 }
 
 .thumbnail img {
-	width: 100%;
+	//width: 100%;
 	height: 350px;
 	margin: 0;
 	padding: 0;
 }
 
 .carousel .item {
-	background: url('../images/halftone.png');
+	background: url('../images/matrix.gif');
 }
 
 footer {
