@@ -1,0 +1,19 @@
+body {
+    background: url("../images/black-and-blue-cube-background.jpg");
+}
+
+.header-border {
+    border-bottom: 1px solid #ffffff;
+}
+
+#gallery .page-header {
+    color: #ffffff;
+}
+
+.thumbnail img {
+    margin: 0;
+}
+
+footer {
+    border-top: 5px solid gray;
+}

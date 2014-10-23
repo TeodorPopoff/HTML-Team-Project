@@ -1,3 +1,11 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: #000;
+}
+
 .custom-nav {
 	padding: 5px;
 	margin-bottom: 0;
@@ -17,7 +25,7 @@ background-color: #777;
 }
 
 .logo{
-padding: 0px;
+    padding: 0px;
     margin:0px;
     height: auto;
     position: relative;
@@ -37,7 +45,7 @@ padding: 0px;
 	margin-top:6%;
 }
 
-.thumbnail img {
+.image-slider img {
 	height: 350px;
     margin-top: 0;
     margin-bottom: 0;
@@ -70,14 +78,6 @@ footer ul {
 
 footer ul li a {
 	color: #ABAB90;
-}
-
-body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #333;
-	background-color: #000;
 }
 
 footer {
