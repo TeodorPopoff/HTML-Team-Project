@@ -45,12 +45,24 @@ background-color: #777;
 	margin-top:6%;
 }
 
-.image-slider img {
+div.thumbnail img {
 	height: 350px;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
     align-content: center;
+}
+
+a.thumbnail img {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.img-responsive {
+height: 200px !important;
 }
 
 .carousel .item {
