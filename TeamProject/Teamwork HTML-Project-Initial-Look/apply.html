@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SoftMatrix</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/caruosel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#footer").load("includes/footer.html");
+        });
+    </script>
+</head>
+<body>
+<!-- ==========================================================
+                            START HEADER
+   =============================================================== -->
+<header class="navbar navbar-inverse navbar-static-top custom-nav">
+    <section class="container nav-section">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="home.html" class="navbar-brand">
+                <img class="logo" src="images/logo10.gif" alt="SoftMatrix">
+            </a>
+        </div>
+        <nav class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav custom-nav">
+                <li>
+                    <a href="home.html">Началото</a>
+                </li>
+                <li class="active">
+                    <a href="about.html">Кандидатсвай</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Галерия</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Искам още
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Създателите</li>
+                        <li><a href="#">Любомир Юруков</a></li>
+                        <li><a href="#">Пламен Гроздев</a></li>
+                        <li><a href="#">Пламен Лазаров</a></li>
+                        <li><a href="#">Теодор Попов</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Треньорите</li>
+                        <li><a href="#">Морфей</a></li>
+                        <li><a href="#">Нео</a></li>
+                        <li><a href="#">Тринити</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<!-- Application Form --->
+<section class="container">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="name" placeholder="Please enter your full name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-8">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message" class="col-sm-2 control-label">Tell us something about you</label>
+            <div class="col-sm-8">
+                <textarea rows="10" class="form-control" id="message" placeholder="Why do you want to join us?"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="gender" class="col-sm-2 control-label">Gender</label>
+            <div class="col-sm-8">
+                <label class="radio-inline">
+                    <input type="radio" name="gender" value="option2"/>Male
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="gender" value="option1"/>Female
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="city" class="col-sm-2 control-label">City</label>
+            <div class="col-sm-8">
+                <select name="city" class="form-control">
+                    <option value="sofia">Sofia</option>
+                    <option value="plovdiv">Plovdiv</option>
+                    <option value="varna">Varna</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+            </div>
+        </div>
+    </form>
+</section>
+
+<footer id="footer"></footer>
+<script src=js/bootstrap.min.js></script>
+</body>
+</html>
