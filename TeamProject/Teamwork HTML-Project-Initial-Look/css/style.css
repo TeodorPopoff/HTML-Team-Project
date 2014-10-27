@@ -76,8 +76,9 @@ a.thumbnail img {
 }
 
 footer {
-	margin-top: 130px;
+	margin-top: 10px;
 	background-color: #EEEEEE;
+    height: 150px;
 }
 
 footer h3 {
