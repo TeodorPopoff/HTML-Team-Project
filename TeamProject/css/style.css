@@ -107,7 +107,7 @@ footer ul li a{
 	margin-top:20px;
     text-align: center;
 }
-h2, h3, p, a{
+h2, h3, p, a, label{
  color: #009100 !important;
 }
 a:hover{
